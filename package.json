@@ -1,0 +1,30 @@
+{
+  "name": "pincollage",
+  "version": "1.0.0",
+  "description": "Web app for rapidly creating new chip packages from images for EDA tools.",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmptable/pincollage.git"
+  },
+  "author": "Owen Trueblood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmptable/pincollage/issues"
+  },
+  "homepage": "https://github.com/jmptable/pincollage#readme",
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "coffeeify": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "lodash.assign": "^3.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
+  }
+}
